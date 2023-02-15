@@ -22,7 +22,8 @@ def main():
     st.title("Оценка квартир в Душанбе")
     html_temp = """
     <div style="background-color:green    ;padding:10px">
-    <h2 style="color:white;text-align:center;">Prediction of house price in Dushanbe. Based on data from Somon.tj, algorithm GBoosting Regressor  </h2>
+    <h2 style="color:white;text-align:center;">Учебная модель поможет оценить квартиры в душанбе. МОдель обучена на основе данных сомон.тч, алгоритмом GrdBosstingReg (точность 
+    46%) </h2>
     </div>
     """
     st.markdown(html_temp,unsafe_allow_html=True)
